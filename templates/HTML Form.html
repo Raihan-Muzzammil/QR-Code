@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Forms</title>
+
+<body>
+<h1>Hello again.</h1>
+<p>Now we are gonna have a short survey to create a character sheet of some sort.</p>
+
+<form action="bing.php">
+
+<fieldset><legend>Survey</legend>
+
+<b><label for="fname">Your Full Name</label></b><br>
+<input type="text" id="fname" name="Full Name" value=""><br>
+
+
+<b><label for="place">Where are you from?</label></b><br>
+<input type="text" id="place" name="Place" value=""><br>
+
+<label><b>Password</b></label><br>
+<input type="password" id="pw" name="pass" value="">
+
+<br><b><label for="gender">Gender</label></b><br>
+<input type="radio" id="male" name="Gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="Gender" value="female">
+<label for="female">Female</label><br>
+
+
+<b><label for="eat">Stuff you like to eat</label></b><br>
+<input type="radio" id="Food1" name="Food" value="South Boi">
+<label for="Food1">Anything that is south indian.</label><br>
+<input type="radio" id="Food2" name="Food" value="Vegan(ew)">
+<label for="Food2">I'm Vegan</label><br>
+<input type="radio" id="Food3" name="Food" value="Stomach Of Steel">
+<label for="Food3">What do you mean by eat ? Everyday is Ramadan.</label><br>
+<input type="radio" id="Food4" name="Food" value="Other">
+<label for="Food4">Other</label><br>
+
+
+<b><label for="qual">Qualifications</label></b><br>
+<input type="checkbox" id="qual1" name="Qualification" value="Engineer">
+<label for="qual1">B.Tech/M.Tech</label><br>
+<input type="checkbox" id="qual2" name="Qualification" value="Doctor">
+<label for="qual2">Ph.D</label><br>
+<input type="checkbox" id="qual3" name="Qualification" value="Student">
+<label for="qual3">Still in school.</label><br>
+<input type="checkbox" id="qual4" name="Qualification" value="Funny Guy">
+<label for="qual4">wHaT Iz eNgLis?</label><br>
+
+
+<b><p>Do You Like Chocolate?</p></b>
+
+<select name="Chocolate" size="2">
+  <option value="Yes">Yes, I am a completely normal human being capable of eating chocolate. </option>
+  <option value="No">NO, I DON'T LIKE SWEET THINGS IN LIFE.</option>
+</select><br>
+
+
+<b><label for="like">Did you like the survey?</label></b><br>
+<input type="checkbox" id="like1" name="Like" value="YES">
+<label for="like1">YES</label><br>
+<input type="checkbox" id="like2" name="Like" value="yes">
+<label for="like2">yes</label><br>
+
+
+<p><b>Thank you for your time.</b></p><br>
+
+<p><input type="submit" name="submit" value="Submit" /></p>
+
+
+
+
+</form>
+</body>
+</html>
