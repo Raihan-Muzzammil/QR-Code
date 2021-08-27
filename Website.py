@@ -18,7 +18,7 @@ def generate():
 @app.route("/download")
 def gen():
     qrgen(tex)
-    return send_file(path_or_file="Desktop",download_name ="qr.png" ,as_attachment=True)
+    return send_file(path_or_file="Desktop",download_name=tex + ".png", as_attachment=True)
 
 
 @app.route("/random")
