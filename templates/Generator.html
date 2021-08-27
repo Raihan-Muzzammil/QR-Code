@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block title %}QR Code Generator : Generator{% endblock %}
-{% block content %}
-    <h2>QR Code : Generator</h2>
-    <form action = "/generator" method="post">
-        <p> Enter the URL or Text to be encoded in QR Code : </p>
-        <p><input type="text" name="qr" required="required"/></p>
-        <p><input type="submit" value="Generate"/></p>
+{% block  content  %}
+    <h2 align="center">QR Code : Generator</h2>
+    <form align="center" action = "/generator" method="post">
+        <p align="center"> Enter the URL or Text to be encoded in QR Code : </p>
+        <p align="center"><input type="text" name="qr" required="required"/></p>
+        <p align="center"><input type="submit" value="Generate"/></p>
     </form>
 {% endblock %}
